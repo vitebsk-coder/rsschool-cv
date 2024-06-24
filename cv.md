@@ -18,9 +18,9 @@
 
 ### code example
 ```javascript
-let x = 12;
-let y = 6;
-console.log(x + y);
+function multiply(a, b) {
+  return a * b 
+}
 ```
 
 ### Education
