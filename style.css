@@ -1,0 +1,170 @@
+* {
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+   color: #545454;
+   font-family: "Raleway", sans-serif;
+}
+
+p {
+   text-decoration: none;
+   font-family: "Raleway", sans-serif;
+}
+
+
+h1,
+h2,
+h3 {
+   font-family: "Raleway", sans-serif;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+li {
+   font-family: "Raleway", sans-serif;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+
+
+.container {
+   max-width: 700px;
+   margin: 0 auto;
+}
+
+
+.header__inner {
+   background: #fff4f4;
+}
+
+.header__content {
+   display: flex;
+   justify-content: space-between;
+}
+
+.header__title {
+   margin-top: 69px;
+   margin-left: 29px;
+}
+
+.header__title-name {
+   font-size: 24px;
+   letter-spacing: 0.05em;
+   color: #000;
+   font-size: 24px;
+   font-weight: 300;
+   margin: 0px;
+}
+
+.header__title-surname {
+   font-size: 40px;
+   font-weight: 700;
+   letter-spacing: 0.2em;
+   color: #000;
+   margin: 0;
+   text-transform: uppercase;
+}
+
+.header__subtitle {
+   font-size: 14px;
+   font-weight: 300;
+   text-align: end;
+   text-transform: uppercase;
+   letter-spacing: 0.05em;
+   line-height: 1.5;
+   color: #000;
+   margin: 0;
+}
+
+.header__photo {
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+   margin-top: 57px;
+   margin-right: 80px;
+}
+
+.menu__list {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: 20px 0;
+}
+
+.menu__link {
+   font-size: 14px;
+   font-weight: 300;
+   letter-spacing: 0.05em;
+   line-height: 1.5;
+   color: #545454;
+}
+
+.menu__link:hover {
+   color: #000;
+   text-decoration: underline;
+}
+
+.main__inner {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.section {
+   width: 50%;
+   padding-left: 30px;
+}
+
+.section__title {
+   font-size: 14px;
+   font-weight: 600;
+   letter-spacing: 0.2em;
+   color: #000;
+}
+
+.section__text {
+   font-size: 12px;
+   font-weight: 300;
+   letter-spacing: 0.05em;
+   line-height: 1.5;
+   color: #545454;
+   padding-left: 10px;
+}
+
+.contact__item {
+   display: flex;
+   align-items: center;
+}
+
+.contact__img {
+   padding: 10px;
+}
+
+.footer__inner {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding-top: 30px;
+   margin: 0 100px;
+}
+
+.footer__data {
+   font-family: "Raleway", sans-serif;
+   font-size: 32px;
+}
+
+.footer__img {
+   width: 100px;
+   height: 100px;
+}
+
+.footer__link {
+   width: 100px;
+   height: 100px;
+}

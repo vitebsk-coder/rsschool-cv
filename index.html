@@ -4,11 +4,119 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="/rsschool-cv/style.css">
+   <title>cv</title>
 </head>
 
 <body>
-
+   <header class="header">
+      <div class="container">
+         <div class="header__inner">
+            <div class="header__content">
+               <div class="header__title">
+                  <h1 class="header__title-name">Egor</h1>
+                  <h2 class="header__title-surname"> Marmylev</h2>
+                  <h3 class="header__subtitle">frontend developer</h3>
+               </div>
+               <img class="header__photo" src="/rsschool-cv/img/Photo.png" alt="avatar">
+            </div>
+            <div class="header__menu">
+               <ul class="menu__list">
+                  <li class="menu__item"><a href="#" class="menu__link">About me</a></li>
+                  <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+                  <li class="menu__item"><a href="#" class="menu__link">skills</a></li>
+                  <li class="menu__item"><a href="#" class="menu__link">Code example</a></li>
+                  <li class="menu__item"><a href="#" class="menu__link">Education</a></li>
+                  <li class="menu__item"><a href="#" class="menu__link">Languages</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </header>
+   <main class="main">
+      <div class="container">
+         <div class="main__inner">
+            <section class="section">
+               <h2 class="section__title">About me</h2>
+               <p class="section__text about ">Hello! My name is Egor, I am 28 years old. I work in the field of
+                  woodworking at
+                  an
+                  enterprise for the
+                  manufacture of interior doors. My hobbies are cycling, snooker, poker and this year I started to try
+                  myself in programming, namely frontend developer. I will try my best to pass this training, and
+                  hopefully
+                  in the future I will become a cool developer.</p>
+            </section>
+            <section class="section">
+               <h2 class="section__title">Contact</h2>
+               <ul class="contact-list">
+                  <li class="contact__item">
+                     <img class="contact__img" src="img/Vector.png" alt="vector">
+                     <span class="section__text">Vitebsk, Bealrus</span>
+                  </li>
+                  <li class="contact__item">
+                     <img class="contact__img phone" src="img/local_phone.png" alt="phone">
+                     <span class="section__text">+7 (123) 456-78-90</span>
+                  </li>
+                  <li class="contact__item">
+                     <img class="contact__img phone" src="img/local_post_office.png" alt="mail">
+                     <a class="section__text"
+                        href="https://mail.yandex.by/?uid=1001875697#inbox">Yagor-tomato@yandex.by</a>
+                  </li>
+               </ul>
+            </section>
+            <section class="section">
+               <h2 class="section__title">Code example</h2>
+               <pre class="code">
+function multiply(a, b) {
+return a * b 
+} 
+           </pre>
+            </section>
+            <section class="section">
+               <h2 class="section__title">Education</h2>
+               <ul class="info__list">
+                  <li class="section__text">Belarusian State Technological Universit</li>
+                  <li class="section__text">Specialty: Technology of woodworking industries</li>
+                  <li class="section__text">Qualification: Technician-technologist</li>
+               </ul>
+            </section>
+            <section class="section">
+               <h2 class="section__title">Languages</h2>
+               <ul class="info__list">
+                  <li class="section__text">Belarusian - native speaker</li>
+                  <li class="section__text">Russian - native speaker</li>
+                  <li class="section__text">English - A1</li>
+               </ul>
+            </section>
+            <section class="section">
+               <h3 class="section__title">Skills</h3>
+               <ul class="main__list">
+                  <li class="section__text">HTML</li>
+                  <li class="section__text">CSS, SASS</li>
+                  <li class="section__text">JavaScript (basics)</li>
+                  <li class="section__text">VS Code, Figma</li>
+               </ul>
+            </section>
+         </div>
+      </div>
+   </main>
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__inner">
+            <span class="footer__data">2024</span>
+            <a class="footer__img" href="https://rs.school/courses/javascript-ru"><img
+                  src="/rsschool-cv/img/rsschool.png" alt="rsschool" class="footer__img"></a>
+            <a href="https://github.com/vitebsk-coder" class="footer__link">
+               <img class="footer__img" src="/rsschool-cv/img/github.png" alt="github">
+            </a>
+         </div>
+      </div>
+   </footer>
 </body>
 
 </html>
